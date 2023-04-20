@@ -11,3 +11,7 @@ For running tests: npm test or yarn test Contributing If you would like to contr
 Deployment To deploy the app to a production server or a hosting service, you can follow the steps below:
 
 Generate a production build of the app: npm run build or yarn build Copy the contents of the build folder to your production server or hosting service Configure your server or hosting service to serve the index.html file as the entry point of the app Start the app on the server or hosting service as per their documentation
+
+You can login as Editor after starting the application by using username: admin with any password.
+If you used any other username with any accepted password you will be loggedin as Viewer.
+
