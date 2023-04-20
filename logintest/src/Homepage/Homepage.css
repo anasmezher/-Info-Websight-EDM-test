@@ -1,0 +1,57 @@
+button.logoutbutton {
+    background-color: black;
+    color: white;
+    padding: 4px 24px;
+    border: 0;
+    border-radius: 5px;
+}
+table.sortableTable {
+    width: 100%;
+}
+table.sortableTable thead {
+    background: black;
+}
+
+table.sortableTable thead th {
+     cursor: pointer;
+}
+table.sortableTable tr td {
+    padding-left: 8px;
+}
+input.searchbbutton {
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 0px 10px;
+}
+span.viewAs {
+    display: block;
+    background: white;
+    color: black;
+    margin-bottom: 21px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+.sortableTableWrap {
+    max-height: 80vh;
+    overflow-y: scroll;
+     
+    display: block;
+    margin: auto;
+    max-width: 1300px;
+    margin: auto;
+    /* display: block; */
+    margin-top: 29px;
+    border: 1px solid black;
+
+    background: #b6b6b691;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .sortableTableWrap {
+       
+        overflow: scroll;
+         
+     width: 100%;
+    }
+  }

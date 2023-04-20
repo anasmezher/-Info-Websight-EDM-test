@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline-offset: 4px;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+body {
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../assets/login.jpg');
+  display: grid;
+  grid-template-areas: "main";
+  padding: 5px;
+  min-height: 100vh;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+.page__main {
+  grid-area: main;
+}
+
+.main {
+  display: grid;
+  align-items: center;
+  height: 100vh;
+}
+.main__login-form {
+  margin-inline: auto;
+  max-width: 25em;
+}
+
+.login-form {
+  color: #433532;
+  display: grid;
+  position: relative;
+  width: 100%;
+  padding: 22px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 1em;
+}
+.login-form::before {
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  content: "";
+  z-index: -4000;
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+.login-form__title {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.login-form__label {
+  margin-bottom: 10px;
+  display: grid;
+}
+.login-form__input {
+  color: inherit;
+  width: 100%;
+  padding: 0.8em;
+  border: 0;
+  border-radius: 10px;
+}
+.login-form__footer {
+  margin-top: 10px;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+ 
+
+.primary-btn {
+  color: white;
+  background-color: #000406;
+  padding: 0.9em 1.4em;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .5s;
+}
+.primary-btn:hover {
+  background-color: #02013f;
+  transition: all .5s;
+}
+
+.sr-only {
+  position: absolute;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border-width: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+li.passed {
+  color:green !important;
+  
+}
+.error span {
+  display: block;
+  color: #860f0e;
+  font-size: 10px;
+  margin-bottom: 21px;
+}
+.error ul li {display: inline-block;width: 49%;vertical-align: text-top;font-size: 10px;line-height: 10px;color: #850f0f;}
+
+.error ul {
+  margin-top: -10px;
+  margin-bottom: 14px;
+}
