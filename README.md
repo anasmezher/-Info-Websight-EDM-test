@@ -4,9 +4,7 @@ Installation Clone the repository to your local machine: git clone https://githu
 
 For development mode: npm start or yarn start For production mode: npm run build or yarn build (this will generate a production build in the build folder, which can be deployed to a web server) The app will be running in your default web browser at http://localhost:3000/.
 
-Testing The app includes unit tests to ensure its functionality. You can run the tests using the following command:
-
-For running tests: npm test or yarn test Contributing If you would like to contribute to the project, feel free to submit a pull request with your changes. We welcome contributions from the community!
+ 
 
 Deployment To deploy the app to a production server or a hosting service, you can follow the steps below:
 
